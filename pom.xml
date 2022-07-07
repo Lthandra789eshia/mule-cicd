@@ -38,14 +38,6 @@
 						<application>${app.location}</application>
 					</applications>
 				</configuration>
-				<executions>
-					<execution>
-						<id>deploy</id>
-						<goals>
-							<goal>deploy</goal>
-						</goals>
-					</execution>
-				</executions>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
