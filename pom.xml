@@ -33,8 +33,19 @@
 				<version>1.9</version>
 				<extensions>true</extensions>
 				<configuration>
-					<copyToAppsDirectory>true</copyToAppsDirectory>
+					<muleHome>${mule.home}</muleHome>
+					<applications>
+						<application>${app.location}</application>
+					</applications>
 				</configuration>
+				<executions>
+					<execution>
+						<id>deploy</id>
+						<goals>
+							<goal>start</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
