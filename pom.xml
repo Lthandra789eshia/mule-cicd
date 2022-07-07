@@ -42,7 +42,7 @@
 					<execution>
 						<id>deploy</id>
 						<goals>
-							<goal>start</goal>
+							<goal>deploy</goal>
 						</goals>
 					</execution>
 				</executions>
